@@ -215,7 +215,7 @@ html {
         background-image: url("images/header-bg.jpg");
         background-position: bottom right;
         background-repeat: no-repeat;
-        background-attachment: scroll;
+        background-attachment: fixed;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -404,7 +404,7 @@ html {
         .hero {
             background-attachment: initial;
         }
-        
+
         .hero h1 {
             font-size: 1.5rem;
         }
