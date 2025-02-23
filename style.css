@@ -401,6 +401,10 @@ html {
     }
     
     @media(max-width: 500px) {
+        .hero {
+            background-attachment: initial;
+        }
+        
         .hero h1 {
             font-size: 1.5rem;
         }
